@@ -4,12 +4,15 @@
 
 1. [Introduction](#introduction)
 2. [Pre-requisites](#Prerequisites)
+3. [Dependencies](#Depend)
 3. [Results](#results)
 4. [Contents of the Repo](#contents)
 
 ## Introduction <a name="introduction"></a>
 
-Welcome to my repository which focuses on analysing the sensor data of an office building. The analysis has been carried out keeping in mind the requirements/thresholds mentioned by the facilities manager for working hours. The time series data has been made forecasting ready through the course of this script.
+This repository contains a Jupyter Notebook dedicated to the analysis of time series sensor data collected from an office building's floors. The dataset, provided with this exercise, includes measurements of indoor temperature, humidity, and CO2 levels recorded by multiple sensors. The data is sampled from two floors of the building.
+
+The primary goal of this project is to offer insights for facilities management based on Internet of Things (IoT) data. Facilities managers aim to maintain specific indoor temperature and CO2 levels to meet the building's operational goals. The analysis will involve examining trends, patterns, and potential correlations within the sensor data. Simultaneously, one of the end goals of this project is to prepare the data for forecasting purposes.
 
 ## Pre-requisites <a name="Prerequisites"></a>
 
@@ -17,13 +20,23 @@ Welcome to my repository which focuses on analysing the sensor data of an office
 - Jupyter Notebook
 - Time Series Analysis (ADF test, Stationarity, Seasonality)
 
+## Dependencies <a name="Depend"></a>
+
+- Python 3.10
+- Jupyter Notebook
+- Pandas
+- Matplotlib
+- Seaborn
+- Statsmodels
+
 ## Results <a name="results"></a>
 
 The results can be seen in the attached presentations (PDF files).
 
 ## Contents of the Repo <a name="contents"></a>
 
-- Jupyter_Notebook (Python Code)
+- Jupyter_Notebook.ipynb (Python Code)
+- Jupyter_Notebook.html (HTML version of the notebook)
 - DS_Presentation (PDF file for technical audience)
 - Presentation (PDF file for non-technical audience)
 - Indoor air quality data (iaq.json)
